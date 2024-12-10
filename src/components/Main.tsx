@@ -153,6 +153,7 @@ const Main = () => {
         <br />
         <button onClick={logout}>Вийти</button>
         <br />
+        <Link to="/create">Create a Dog</Link>
         {dogs.map((dog: any) => (
           <Card key={dog._id} sx={{ maxWidth: 345, margin: 2 }}>
             <CardMedia
